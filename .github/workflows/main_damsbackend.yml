@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'DAMSBackend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1F11AC3819B941CFB95BEE2F937BD488 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_64025C910B9A4AA08F34DDAA3B1E8C59 }}
           package: '*.jar'
