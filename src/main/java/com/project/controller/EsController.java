@@ -24,7 +24,7 @@ import com.project.model.FileModel;
 import com.project.repository.ResponseDTO;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin("http://damsproject.azurewebsites.net")
 public class EsController {
 
 	@Autowired
